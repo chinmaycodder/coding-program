@@ -92,7 +92,7 @@ body{
 .title{
     margin: 20px 0px;
     font-size: 50px;
-    color: white;
+    color: rgb(27, 26, 27);
 }
 
 .titleSpan{
@@ -108,7 +108,7 @@ body{
 }
 
 .showCVButton{
-    background-color: rgb(201, 158, 49);
+    background-color: rgb(13, 159, 211);
     border-radius: 5px;
     padding: 10px 15px;
     filter: drop-shadow(5px 5px 3px grey);
@@ -149,7 +149,7 @@ body{
 
 
 .serviceCard{
-    background-color: white;
+    background-color: rgb(15, 15, 16);
     border: 2px solid grey;
     border-radius: 2px;
     filter: drop-shadow(1px 1px 2px #aaaaaa);
@@ -173,7 +173,7 @@ body{
 .serviceIcon{
     text-align: center;
     font: 3rem;
-    color: white;
+    color: rgb(25, 6, 169);
 }
 
 .serviceTitle{
@@ -189,5 +189,5 @@ body{
 
 .serviceFeatureIcon{
     font-size: 15px;
-    color: rgb(141, 45, 139);
+    color: rgb(6, 201, 214);
 }
