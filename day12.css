@@ -1,0 +1,65 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: rgb(226, 14, 14);
+    animation-name: colorchanger;
+    animation: colorchanger is infinite;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    text-align: center;
+    
+
+}
+@keyframes colorchanger {
+    0%,100%{
+        background-color: brown;
+        transform: scale(0.3s);
+        transform: translate(0,0px);
+    }
+    50%{
+        background-color: aqua;
+        transform-origin: 100cm;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
+.left{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 20%;
+    background-color: rgb(226, 14, 14);
+    animation-name: left;
+    animation: left is infinite;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    text-align: center;
+
+    
+
+}
+
+    @keyframes left{ 
+        0%,100%{
+        background-color: brown;
+        transform: scale(0.3s);
+        transform: translate(0,0px);
+    }
+    50%{
+        background-color: aqua;
+        transform-origin: 100cm;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+        
+
+    }
+
+
+
